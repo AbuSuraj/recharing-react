@@ -16,7 +16,7 @@ const Home = () => {
      }
      return (
      <div className="animal-home">
-       <button onClick={ handleClick}>Add animal</button>
+       <button className='p' onClick={ handleClick}>Add animal</button>
        {animals.map(animal =>
         <AnimalShow key={id++} type={animal}></AnimalShow>
        )
